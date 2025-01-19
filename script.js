@@ -69,6 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
     loadingScreen.style.opacity = "0";
     setTimeout(() => {
       loadingScreen.style.display = "none";
-    }, 50000); // Transition douce de 500 ms
+    }, 500); // Transition douce de 500 ms
   });
 });
