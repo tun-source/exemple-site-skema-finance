@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skema Finance Lille</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Georgia:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="loading-screen">
+    <div class="spinner"></div>
+  </div>
+  
+  <!-- Bannière -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Skema Finance">
+    </div>
+    <nav>
+      <div class="nav-item">
+        <a href="#articles">Articles</a>
+        <div class="submenu">
+          <a href="#articles-generaux">Articles généraux</a>
+          <a href="#dossiers-thematiques">Dossiers thématiques</a>
+          <a href="#recap-marches">Récap de marchés</a>
+          <a href="#analyses-entreprises">Analyses d'entreprises</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#lille">Lille</a>
+        <div class="submenu">
+          <a href="#qui-sommes-nous">Qui sommes-nous</a>
+          <a href="#nos-partenaires">Nos partenaires</a>
+          <a href="#nos-evenements">Nos événements</a>
+        </div>
+      </div>
+      
+
+    <div class="nav-item">
+      <a href="#Paris">Paris</a>
+      <div class="submenu">
+        <a href="#qui-sommes-nous">Qui sommes-nous</a>
+        <a href="#nos-partenaires">Nos partenaires</a>
+        <a href="#nos-evenements">Nos événements</a>
+      </div>
+    </div>
+
+    <div class="nav-item">
+      <a href="#sophia">Sophia</a>
+      <div class="submenu">
+        <a href="#qui-sommes-nous">section1</a>
+        <a href="#nos-partenaires">section2</a>
+        <a href="#nos-evenements">section3</a>
+      </div>
+    </div>
+
+    <div class="nav-item">
+      <a href="#sophia">Q&A</a>
+      <div class="submenu">
+        <a href="#qui-sommes-nous">section1</a>
+        <a href="#nos-partenaires">section2</a>
+        
+      </div>
+    </div>
+
+    <div class="nav-item">
+      <a href="#Paris">Contact</a>
+      <div class="submenu">
+        <a href="#qui-sommes-nous">section1</a>
+        <a href="#nos-partenaires">section2</a>
+        <a href="#nos-evenements">sction3</a>
+      </div>
+    </div>
+
+
+  </nav>
+  </header>
+  
+  <!-- Section principale -->
+  <section id="section1">
+    <div class="overlay">
+      <div class="content">
+        <div class="text">
+          <h1>Skema Finance Lille : Un Hub pour les Passionnés de Finance</h1>
+          <h4>Association de finance de référence à SKEMA Business School.</h4>
+          <h5>
+            Nous offrons des analyses de marché, des conférences avec experts et alumni, des contests pratiques,
+            des formations techniques et un réseau professionnel pour propulser votre carrière en finance.
+          </h5>
+          <p>Rejoignez-nous pour donner un nouvel élan à votre avenir dans la finance !</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/skemafinancelille" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+          <a href="https://www.linkedin.com/company/skema-finance/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+          <a href="https://www.instagram.com/skemafinance.lille/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+        <div class="carousel">
+          <img src="photo2.jpg" alt="Photo 1" class="active">
+          <img src="francfort1.jpg" alt="Photo 2">
+          <img src="francfort2.jpg" alt="Photo 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles -->
+  <section id="articles">
+    <div class="header">
+      <p class="actus-label">LES ACTUS</p>
+      <h2>Nos Derniers Articles</h2>
+      <p class="subheading">Les dernières publications de Skema Finance : récapitulatifs de marchés, articles, analyses d'entreprises...</p>
+    </div>
+    <div class="article-container">
+      <div class="article-box">
+        <iframe src="article1.pdf" frameborder="0"></iframe>
+        <button onclick="openArticle('article1.pdf')">Lire cet article</button>
+      </div>
+      <div class="article-box">
+        <iframe src="La rupture de l’IA dans la modélisation du risque de marché-HURTAUD.pdf" frameborder="0"></iframe>
+        <button onclick="openArticle('article2.pdf')">Article Antoine: La rupture de l’IA dans la modélisation du risque de marché</button>
+      </div>
+      <div class="article-box">
+        <iframe src="articlejean.pdf" frameborder="0"></iframe>
+        <button onclick="openArticle('article3.pdf')">Article jean: Les ETF, un élément crucial des marché financier mais a quel prix?</button>
+      </div>
+    </div>
+    <div class="all-articles-button">
+      <button>Découvrir tous nos articles</button>
+    </div>
+    <div class="skema-logo">
+      <img src="logo.png" alt="Logo Skema Finance">
+    </div>
+
+  </section>
+
+ 
+  <section>
+    
+    <h2>Un apercu du site, a ouvrir sur pc, je n'ai pas encore configuré de version pour les petits ecrans. Restez branchés #antoinedevelopeur </h2>
+    
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Skema Finance Lille - Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
