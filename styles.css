@@ -102,7 +102,7 @@ header nav .submenu {
   top: 120%; /* Position ajustée pour un bel espacement */
   left: 50%;
   transform: translateX(-50%);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.747);
   padding: 10px 0;
   border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
